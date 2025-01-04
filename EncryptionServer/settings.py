@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "Paillier.apps.PaillierConfig"
+    "Paillier.apps.PaillierConfig",
+    "tensealfully.apps.TensealfullyConfig"
 ]
 
 MIDDLEWARE = [

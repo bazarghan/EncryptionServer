@@ -1,6 +1,8 @@
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('Paillier.urls'))
+    path('paillier/', include('Paillier.urls')),
+    path('tenseal-fully/', include('tensealfully.urls'))
 ]

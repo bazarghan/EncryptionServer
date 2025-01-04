@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac161a9-b919-49d6-92f7-811020ef0a89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EncryptionServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EncryptionServer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EncryptionServer/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EncryptionServer/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EncryptionServer/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EncryptionServer/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paillier/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="bac161a9-b919-49d6-92f7-811020ef0a89" name="Changes" comment="ALLOWED HOSTS Fixed.">
+      <change afterPath="$PROJECT_DIR$/tensealfully/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensealfully/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensealfully/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EncryptionServer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EncryptionServer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EncryptionServer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EncryptionServer/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +20,28 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bazarghan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bazarghan/EncryptionServer&quot;,
+    &quot;accountId&quot;: &quot;d6cd0273-8a08-4960-a5d3-c0ca64a911c8&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.EncryptionServer.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.EncryptionServer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EncryptionServer" type="Python.DjangoServer" factoryName="Django server">
       <module name="EncryptionServer" />
@@ -103,11 +110,80 @@
       <option name="presentableId" value="Default" />
       <updated>1722881409723</updated>
       <workItem from="1722881430967" duration="43000" />
-      <workItem from="1722881487582" duration="811000" />
+      <workItem from="1722881487582" duration="4893000" />
+      <workItem from="1722928071108" duration="3743000" />
+      <workItem from="1723030346960" duration="3528000" />
+      <workItem from="1723133225819" duration="3128000" />
+      <workItem from="1723224995011" duration="7692000" />
+      <workItem from="1723300256940" duration="3847000" />
+      <workItem from="1723361189600" duration="1971000" />
+      <workItem from="1723410078431" duration="389000" />
+      <workItem from="1723491473601" duration="556000" />
+      <workItem from="1723502319521" duration="27000" />
+      <workItem from="1727776347488" duration="1088000" />
+      <workItem from="1728462672273" duration="241000" />
+      <workItem from="1729510241119" duration="3124000" />
+      <workItem from="1729778344082" duration="11805000" />
+      <workItem from="1729850254490" duration="1441000" />
+      <workItem from="1729938570696" duration="619000" />
+      <workItem from="1729939202082" duration="6473000" />
+      <workItem from="1729956325097" duration="38000" />
+      <workItem from="1730018376390" duration="1863000" />
+      <workItem from="1730025875529" duration="1252000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Based Created">
+      <option name="closed" value="true" />
+      <created>1722882361705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722882361705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Public Key set has been completed.">
+      <option name="closed" value="true" />
+      <created>1723233970691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723233970691</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Public Key set has been completed.">
+      <option name="closed" value="true" />
+      <created>1723301736170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723301736170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ALLOWED HOSTS Fixed.">
+      <option name="closed" value="true" />
+      <created>1723301842513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723301842513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Based Created" />
+    <MESSAGE value="Public Key set has been completed." />
+    <MESSAGE value="ALLOWED HOSTS Fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="ALLOWED HOSTS Fixed." />
   </component>
 </project>
